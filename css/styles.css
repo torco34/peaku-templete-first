@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #f6f5f5;
+}
+/* style the button header */
+.btn-custom {
+  background-color: white; /* Color de fondo */
+  color: #836fff; /* Color del texto */
+  border: none; /* Quitamos el borde */
+  padding: 10px 20px; /* Ajustamos el relleno */
+  text-align: center; /* Centramos el texto */
+  text-decoration: none; /* Quitamos la subrayado */
+  display: inline-block; /* Hacemos que el botón se comporte como un bloque en línea */
+  font-size: 20px; /* Tamaño del texto */
+  cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Borde redondeado */
+  transition-duration: 0.4s; /* Duración de la transición */
+}
+.btn-custom.active {
+  background-color: #836fff; /* Cambiamos el color de fondo */
+  color: white; /* Cambiamos el color del texto */
+}
+.btn-custom:hover {
+  background-color: #836fff; /* Cambiamos el color de fondo */
+  color: white; /* Cambiamos el color del texto */
+}
+.btn-custom-discover {
+  cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  border: solid #836fff;
+  color: #836fff;
+  width: 200px;
+  background-color: white;
+}
+
+/* styles the img and text */
+
+.containerH2P h2 {
+  line-height: 1.1;
+  font-family: "Arial", sans-serif;
+}
+
+.containerH2P p {
+  line-height: 1.5;
+  font-family: "Arial", sans-serif;
+}
+
+.containerImg1 img {
+  width: 100%;
+  
+}
+/* color de reuse */
+.colorUniversity {
+  color: #836fff;
+}
+
+
